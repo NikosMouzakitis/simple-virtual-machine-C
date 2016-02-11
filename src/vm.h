@@ -19,7 +19,7 @@ typedef enum {
     IEQ     = 5,   // int equal
     BR      = 6,   // branch
     BRT     = 7,   // branch if true
-    BRF     = 8,   // branch if true
+    BRF     = 8,   // branch if false
     ICONST  = 9,   // push constant integer
     LOAD    = 10,  // load from local context
     GLOAD   = 11,  // load from global memory
